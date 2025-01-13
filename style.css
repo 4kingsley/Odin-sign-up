@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("font/Norse-Bold.otf");
+}
+
+h1 {
+    font-family: Norse-Bold;
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.left {
+    background: url(images/imgsid.avif);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 65vw;
+}
+
+.first {
+    height: 28vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%; 
+    margin-bottom: 5%;   
+}
+
+.second {
+    height: 32vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 2px 3px 5px #e5e5e5;
+}
+
+.second h4 {
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.formas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #3F90FC;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 11px;
+    color: #6d6e6f;
+}
+
+#error {
+    font-size: 11px;
+    color: red;
+    margin: 1px;
+}
+
+.btn-green{
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.third {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.registernow {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+a.log {
+    font-size: 15px;
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-footer{
+    color: white;
+}
+
+.ab-footer{
+    color: white;
+}
+
+.footer {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 35vw;
+    font-size: small;
+}
+
+.topimg {
+    display: flex;
+    height: 40vh;
+    align-items:flex-end;
+}
+
+.transparent {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    background: rgba(0,0,0,0.6);
+    padding: 20px; 
+}
+
+.transparent img {
+    width: 90px;
+    height: auto; 
+}
+
+h1 {
+    font-size: 50px;    
+}
